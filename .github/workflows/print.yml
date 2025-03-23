@@ -1,9 +1,8 @@
 name: Print File Contents
 
 on:
-  push:
-    branches:
-      - 'testbranch'  # Trigger on any file change
+  pull_request:
+    branches: [testbranch]
   workflow_dispatch:  # Allow manual triggering
 
 

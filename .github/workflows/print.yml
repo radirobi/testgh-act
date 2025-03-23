@@ -1,4 +1,4 @@
-name: Print File Contents222
+name: Print File Contents
 
 on:
   push:

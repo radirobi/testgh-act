@@ -1,0 +1,19 @@
+name: Print File Contents
+
+on:
+  push:
+    branches:
+      - 'main'  # Trigger on any file change
+  workflow_dispatch:  # Allow manual triggering
+
+
+jobs:
+  print-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Print file contents
+      run: cat catme

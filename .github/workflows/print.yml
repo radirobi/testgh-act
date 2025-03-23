@@ -16,5 +16,6 @@ jobs:
 
     - name: Print file contents
       run: cat catme
+      
     - name: Dummy hello
       run: echo szia

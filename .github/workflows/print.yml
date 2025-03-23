@@ -3,7 +3,7 @@ name: Print File Contents
 on:
   push:
     branches:
-      - 'main'  # Trigger on any file change
+      - 'testbranch'  # Trigger on any file change
   workflow_dispatch:  # Allow manual triggering
 
 
